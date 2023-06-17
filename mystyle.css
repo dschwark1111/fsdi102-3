@@ -1,0 +1,232 @@
+/*global*/
+html{
+    font-size: 62.5%;/*1rem=10px*/
+}
+body{font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+p{
+    font-size: 1.6rem;
+    line-height: 2;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+table{
+    border: 1px solid solid black;
+    font-size: 1.6rem;
+    border-collapse: collapse;
+    margin: 2rem auto;
+}
+td{
+    border: 1px solid black;
+    width: 15rem;
+    padding: 1rem;
+    text-align: center;
+}
+th{
+    width: 15rem;
+    padding: 1rem;
+    background-color: #dd8827;
+}
+label,input,legend{
+    font-size: 1.6rem;
+}
+input, textarea, select{
+    width: 98%;
+    background-color: #dedede;
+    border: none;
+    padding: 0.5rem;
+    
+}
+/*utlities*/
+.container{
+    width: 80%;
+    margin: auto auto;
+
+}
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2rem;
+}
+img{
+    max-width: 100%;
+}
+/*header*/
+header.site-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-image: url(../img/header.jpg);
+    height: 50vh;
+    background-position: top center;
+    background-size: cover;
+    
+}
+header.site-header h1{
+    font-size: 3.5rem;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+header.site-header p{
+    color: white;
+}
+nav.menu a{
+    color: white;
+    font-size: 1.6rem;
+}
+
+/*main*/
+.about-item{
+    padding: 1rem;
+    margin-right: 1rem;
+}
+.about-item p{
+    font-size: 1.4rem;
+    text-align: justify;
+}
+.about-item img {
+    display: block;
+    margin: 1rem auto;
+    
+}
+.about-us h2{
+    font-size: 3rem;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .3rem;
+    margin: 2rem;
+}
+.about-item h3{
+    font-size: 2rem;
+    text-align: center;
+    margin: 1rem;
+}
+/*houses*/
+.house2{
+margin-left: 118px;
+font-size: 3rem;
+}
+.houses-container{
+display: flex;
+}
+.house-item{
+    background-color: #dedede;
+    margin-right: 1rem;
+    margin-bottom: auto;
+}
+.houses-container h3{
+    font-size: 2rem;
+}
+.text.info{
+    font-size: 1.6rem;
+}
+.price{
+    color: green;
+    font-size: 1.6rem
+}
+.detailsbtn{
+    width: 350px;
+    display: block;
+    background-color: rgba(213, 138, 18, 0.902);
+    color: white;
+    border: none;
+    padding: 5px;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 1rem;
+    padding-bottom: auto
+}
+.icon-container{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    justify-content: center;
+}
+.icon-p{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    justify-content: center;
+}
+.main-icon{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    margin-bottom: 1rem;
+}
+.icon-container{
+    display: flex;
+    flex-direction: row;
+}
+.sub-icon{
+    display: flex;
+    flex-direction: row;
+    margin-left: 1.5rem;
+}
+/*about*/
+.about-header{
+    background-color: #dedede;
+    height: 15vh;
+}
+.about-header nav.menu a{
+    color: black;
+    margin-right: 1rem;
+}
+h2{
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 2rem;
+}
+/*blog*/
+.blog-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.blog-text{
+    background-color: #dedede;
+    border-radius: 1rem;
+    padding: 1.5rem;
+}
+/*contact*/
+.input-control {
+    margin-bottom: 2rem;
+}
+legend{
+    font-weight: 700;
+}
+.input-control label{
+    font-weight: 100;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    letter-spacing: .2rem;
+}
+fieldset{
+    padding: 1rem;
+    margin: 1rem;
+}
+h3{
+    text-align: center;
+    font-size: 1.6rem;
+    margin: 1rem
+}
+.contactcontainer{
+    display: inline-flex;
+    flex-direction: row;
+    margin-right: 5rem;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+input[type=radio]{
+    margin-left: 10px;
+}
